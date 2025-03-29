@@ -1,0 +1,6 @@
+age,workclass,fnlwgt,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country
+18,0,252046,9,4,0,3,4,0,9000,0,30,39
+18,0,252346,9,4,0,3,11,1,9000,0,30,39
+27,0,252046,10,4,0,1,4,1,8000,0,30,39
+27,0,252046,9,4,8,12,4,0,0,0,30,39
+18,0,252046,9,4,0,3,4,0,17000,0,30,39

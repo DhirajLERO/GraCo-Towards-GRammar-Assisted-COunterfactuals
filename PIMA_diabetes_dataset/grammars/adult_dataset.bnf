@@ -1,0 +1,14 @@
+<start> ::=  <line> | <line> ; <start>
+<line> ::= <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_int> <op> <c_int> | <x_big_int> <x_big_op> <c_big_int> | <x_v_big_int> <x_V_big_op> <c_v_big_int> | <x_v_big_int> <x_V_big_op> <c_v_big_int> | <x_bool> <bool_op> <c_bool>
+<op> ::= += | -=
+<x_big_op> ::= += | -=
+<x_V_big_op> ::= += | -=
+<bool_op> ::= ^=
+<x_int> ::= x[0]|x[1]|x[3]|x[4]|x[5]|x[6]|x[7]|x[11]|x[12]
+<c_int> ::= 1 | 2| 3 | 4 | 5 | 6 | 7 | 8 | 9
+<x_big_int> ::= x[10]
+<c_big_int> ::= 100 | 200 | 300 | 400| 500| 600 | 700| 800| 900 | 1000| 2000
+<x_v_big_int> ::= x[2] | x[9]
+<c_v_big_int> ::= 100 | 200 | 300 | 400| 500| 600 | 700| 800| 900 | 1000 | 2000 | 3000 | 4000 | 5000| 6000 | 7000 | 8000 | 9000
+<x_bool> ::= x[8]
+<c_bool> ::= 1
