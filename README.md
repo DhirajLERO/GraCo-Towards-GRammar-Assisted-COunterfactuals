@@ -62,8 +62,8 @@ This project is licensed under the MIT License.
 If you use GraCo in your research, please cite our work:
 
 ```
-@inproceedings{your_citation,
-  author    = {Your Name and Co-authors},
+@inproceedings{Singh, D. K., de Lima, A., Reyes Fernández de Bulnes, D., & Ryan, C. (2025, July). GraCo: Towards GRammar Assisted COunterfactuals. In Proceedings of the Genetic and Evolutionary Computation Conference Companion (pp. 423-426),
+  author    = {Dhiraj Kumar Singh, Allan de Lima, Darian Reyes Fernández de Bulnes, Conor Ryan},
   title     = {GraCo: Towards GRammar-Assisted Counterfactuals},
   booktitle = {GECCO 2025},
   year      = {2025}
